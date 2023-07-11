@@ -1,14 +1,14 @@
 import React from "react";
 import "./Header.css";
-import img1 from "./assets/IMG-20221106-164440-764.JPG";
-import img from "./assets/linkedin.png";
+import img1 from "../../assets/IMG-20221106-164440-764.JPG"
+import img from "../../assets/linkedin.png";
 import SearchIcon from "@mui/icons-material/Search";
 import HomeIcon from "@mui/icons-material/Home";
 import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import ChatIcon from "@mui/icons-material/Chat";
 import NotificationsIcon from "@mui/icons-material/Notifications";
-import HeaderOption from "./HeaderOption";
+import HeaderOption from "./headerOption/HeaderOption";
 
 const Header = () => {
   return (
