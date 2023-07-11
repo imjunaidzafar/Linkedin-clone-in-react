@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import img1 from './assets/IMG-20221106-164440-764.JPG'
+import img1 from "./assets/IMG-20221106-164440-764.JPG";
 import img from "./assets/linkedin.png";
 import SearchIcon from "@mui/icons-material/Search";
 import HomeIcon from "@mui/icons-material/Home";
@@ -28,7 +28,7 @@ const Header = () => {
         <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
         <HeaderOption Icon={ChatIcon} title="Messaging" />
         <HeaderOption Icon={NotificationsIcon} title="Notification" />
-        <HeaderOption avatar={img1} title='me' />
+        <HeaderOption avatar={img1} title="me" />
       </div>
     </div>
   );
