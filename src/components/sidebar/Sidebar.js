@@ -1,5 +1,6 @@
 import React from "react";
 import "./Sidebar.css";
+import img1 from "../../assets/IMG-20221106-164440-764.JPG"
 import { Avatar } from "@mui/material";
 
 const Sidebar = () => {
@@ -19,7 +20,7 @@ const Sidebar = () => {
           src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
           alt="cover"
         />
-        <Avatar className="sidebar__avatar" />
+        <Avatar className="sidebar__avatar" src={img1}/>
         <h2>Junaid Zafar</h2>
         <h4>juanid.zafar@gmail.com</h4>
       </div>
