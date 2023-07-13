@@ -5,6 +5,7 @@ import ImageIcon from "@mui/icons-material/Image";
 import SubscriptionsIcon from "@mui/icons-material/Subscriptions";
 import EventNoteIcon from "@mui/icons-material/EventNote";
 import CalendarViewDayIcon from "@mui/icons-material/CalendarViewDay";
+import SendIcon from '@mui/icons-material/Send';
 import InputOption from "./inputOptions/InputOption";
 import Post from "../posts/Post";
 import Photo from "./Photo";
@@ -50,7 +51,7 @@ const Feed = () => {
               onChange={(e) => setMessages(e.target.value)}
             />
             <button onClick={sendPost} type="submit">
-              Send
+              <SendIcon/>
             </button>
           </form>
         </div>

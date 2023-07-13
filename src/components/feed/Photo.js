@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
-const Photo = ({setImage}) => {
-  
+const Photo = ({ setImage }) => {
   const [fileName, setFileName] = useState("No selected file");
   return (
     <div>
@@ -19,15 +18,15 @@ const Photo = ({setImage}) => {
           }}
         />
         {
-        // image ? (
-        //   <img src={image} alt={fileName} />
-        // ) : 
-        (
+          // image ? (
+          //   <img src={image} alt={fileName} />
+          // ) :
           <>
             {/* <MdCloudUpload color="black" size={60} /> */}
+
             <p>Photo</p>
           </>
-        )}
+        }
       </form>
     </div>
   );
